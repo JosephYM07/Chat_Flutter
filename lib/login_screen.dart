@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'chat_screen.dart'; // Importa tu pantalla de chat aquí
+import 'chat_screen.dart'; 
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -110,7 +110,7 @@ class _LoginScreenState extends State<LoginScreen> {
             SizedBox(height: 10),
             TextButton(
               onPressed: () {
-                // Navega a la pantalla de registro al presionar el botón de registro
+                // pantalla de registro al presionar el botón de registro
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => RegisterScreen()),
